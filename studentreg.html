@@ -1,0 +1,60 @@
+<Doctype! hml>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1 style="text-align: center; color:red"><u>Student Registration</u></h1>
+    <p style="text-align: center;">Welcome to our student registration portal! Please fill out the form below to register.</p>
+    <hr>
+    <form action="action.php" >
+        <label for ="name"></label>Full Name:</label><br>
+        <input type="text"  placeholder=" your Full Name" required><br><br>
+        
+        <label for="parentname">Parent's Name:</label><br>
+        <input type="text" placeholder=" your Parent's Name" ><br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" placeholder=" your personal Email" ><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" placeholder=" your Password" ><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" placeholder=" your Date of Birth" ><br><br>
+
+        <label for="mobile number">Phone Number:</label><br>
+        <input type="tel" placeholder="your Phone Number"  ><br><br>
+        <label for="gender">Gender:</label><br>
+        <select required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="Course">Current Course:</label><br>
+        <select required >
+            <option>Btech IT</option>
+            <option>Btech electrical</option>
+            <option>Btech AIML</option>
+            <option>Btech CSE</option>
+
+        </select><br><br>
+
+
+        <label for="address">Address:</label><br>
+        <input type="text" placeholder="your permanenet address"><br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    <hr>
+    </form>
+    <footer><p>All details should be checked carefully before submitting.</p>
+        <p> Once submittted can not reupdate your details.</p>
+    </footer>
+    </body>
+    </html>
+    
+
